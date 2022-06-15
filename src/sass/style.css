@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Exo+2:wght@600&family=Inter:wght@100&family=Mukta:wght@300&family=Mulish:wght@300&family=Oxanium:wght@600&family=PT+Sans+Narrow&family=Pacifico&family=Playfair+Display&family=Poppins:wght@100&display=swap");
+section {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eee;
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: 2px;
+}
+
+section .part-1 {
+  width: 100%;
+  height: 30%;
+}
+
+section .part-1 .logoAndText {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #080838;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+section .part-1 .logoAndText:hover {
+  -webkit-transition: .7s;
+  transition: .7s;
+  background-color: #080838;
+  color: #eee;
+}
+
+section .my-search-btn {
+  border: 1px solid #080838;
+  color: #080838;
+}
+/*# sourceMappingURL=style.css.map */
